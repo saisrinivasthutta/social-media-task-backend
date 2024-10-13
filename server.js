@@ -14,7 +14,7 @@ app.use(express.static("uploads"));
 app.use(userRoutes);
 app.use(adminRoutes);
 
-// Start the server
+// Starting the server
 const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
